@@ -1,0 +1,1289 @@
+.cabecalho {
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid #1771AD;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.primeiroCabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+.primeiroCabecalho .boxTitulos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.primeiroCabecalho .boxTitulos strong {
+    width: 100%;
+    padding: 5px;
+    font-family: Rubik;
+}
+
+.primeiroCabecalho .LoginZoom {
+    width: 13px;
+    height: 16px;   
+    margin-left: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.primeiroCabecalho .Entrar {
+    background: #1C77B4;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.primeiroCabecalho .Entrar img {
+    width: 16px;
+    height: 16px;
+    margin-right: 1px;
+}
+
+.primeiroCabecalho .Entrar .Conta {
+    position: static;
+    width: 50px;
+    height: 19px;
+    left: calc(50% - 50px/2 + 12px);
+    top: 8px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.segundoCabecalho {
+    width: 106.5%;
+    margin-top: 1%;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imgLogo {
+    width: 200px;
+    height: 77px;
+    margin-left: 0px;
+    border-radius: 4px;
+    background-image: url(img/imgIcone.png);
+    background-size: 100%;
+    background-position-y: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundoCabecalho .boxTitulosPrincipais {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    padding-right: 135px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 45%;
+}
+.pesquisa{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+
+}
+
+.pesquisa .caixaPesquisa {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pesquisa .caixaPesquisa input {
+    margin-top: 30px;
+    height: 60px;
+    font-size: 18px;
+    border: 1px solid gray;
+    padding-left: 78px;
+    width: 96%;
+}
+
+.pesquisa .caixaPesquisa img{
+    width: 20px;
+    margin-left: 98%;
+    margin-top: 2%;
+}
+
+.pesquisa .boxLogo {
+    width: 1170px;
+    height: 280px;
+    left: calc(50% - 1170px/2);
+    top: 300px;
+    border-radius: 4px;
+    background-image: url(img/guaxi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: center;
+}
+
+.noticias .box1 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noticias .box11  {
+    width: 173px;
+    height: 38px;
+    left: calc(50% - 173px/2 - 498.5px);
+    top: 718px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #646464;
+    margin-top: 20px;
+    
+}
+
+.noticias .box12 {
+    font-weight: bold;
+    width: 68px;
+    height: 22px;
+}
+
+.gradeNoticias {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    height: 900px;
+    left: 135px;
+    top: 718px;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+}
+
+.gradeNoticias .noticiaGrande {
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+
+}
+
+.gradeNoticias .noticiaGrande .parteImg {
+    height: 600px;
+    width: 100%;
+    left: 1px;
+    top: 1px;
+    bottom: 51.76%;
+    background-image: url(img/Imgpanda.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 2px;
+
+}
+
+.gradeNoticias .noticiaGrande .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+}
+.gradeNoticias .noticiaGrande .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 120px;
+    margin-top: -23px;
+}
+.gradeNoticias .noticiaGrande .parteTexto .linhasDestaque .Destaque {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 11px;
+    left: 37%;
+    right: 44.57%;
+    top: 51.85%;
+    bottom: 43.09%;
+    background: #FF8B00;
+    border-radius: 2px;
+    position: static;
+    width: 83px;
+    height: 21px;
+    left: 11px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 270px;
+    margin-top: -23px;
+}
+.gradeNoticias .noticiaGrande .parteTexto {
+    width: 100%;
+}
+.gradeNoticias .noticiaGrande .parteTexto .Desc {
+    left: 1.58%;
+    right: 1.58%;
+    top: 58.59%;
+    bottom: 29.96%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #646464;
+
+}
+
+.gradeNoticias .noticiaGrande .parteTexto .QualquerTxt {
+    left: 1.58%;
+    right: 4.39%;
+    top: 57%;
+    bottom: 7.27%;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #646464;
+
+}
+.gradeNoticias .noticiaMenor1 {
+background-color: white;
+}
+
+.gradeNoticias .noticiaMenor1 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/vaca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeNoticias .noticiaMenor1 .parteTexto .linhasDestaque{
+    margin-top: px;
+    background-color: white;
+    width: 100%;
+
+}
+.gradeNoticias .noticiaMenor1 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+  
+
+}
+.gradeNoticias .noticiaMenor1 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeNoticias .noticiaMenor1 .parteTexto .QualquerTxt {
+    background-color: white;
+    width: 100%;
+}
+
+.gradeNoticias .noticiaMenor2 {
+    background-color: white;
+}
+.gradeNoticias .noticiaMenor2 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/vaca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeNoticias .noticiaMenor2 .parteTexto .linhasDestaque{
+    margin-top: px;
+    background-color: white;
+    width: 100%;
+
+}
+.gradeNoticias .noticiaMenor2 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+  
+
+}
+.gradeNoticias .noticiaMenor2 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeNoticias .noticiaMenor2 .parteTexto .QualquerTxt {
+    background-color: white;
+    width: 100%;
+}
+
+.gradeNoticias .noticiaMenor3 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/vaca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeNoticias .noticiaMenor3 .parteTexto .linhasDestaque{
+    margin-top: px;
+    background-color: white;
+    width: 100%;
+
+}
+.gradeNoticias .noticiaMenor3 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+  
+
+}
+.gradeNoticias .noticiaMenor3 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeNoticias .noticiaMenor3 .parteTexto .QualquerTxt {
+    background-color: white;
+    width: 100%;
+}
+
+.gradeNoticias .noticiaMenor4 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/vaca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeNoticias .noticiaMenor4 .parteTexto .linhasDestaque{
+    margin-top: px;
+    background-color: white;
+    width: 100%;
+
+}
+.gradeNoticias .noticiaMenor4 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+  
+
+}
+.gradeNoticias .noticiaMenor4 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeNoticias .noticiaMenor4 .parteTexto .QualquerTxt {
+    background-color: white;
+    width: 100%;
+}
+
+.Midias .primeiraLinha {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Midias .primeiraLinha .boxMidia  {
+    width: 173px;
+    height: 38px;
+    left: calc(50% - 173px/2 - 498.5px);
+    top: 718px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #646464;
+    margin-top: 20px;
+    
+}
+
+.Midias .primeiraLinha .boxBotaoMidia {
+    font-weight: bold;
+    width: 68px;
+    height: 22px;
+}
+
+.gradeMidias {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    height: 1100px;
+    left: 135px;
+    top: 718px;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+}
+
+.gradeMidias .midiaGrande1 {
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.gradeMidias .midiaGrande1 .parteImg {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/leao.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+    background-repeat: no-repeat;
+}
+.gradeMidias .midiaGrande1 .parteTexto .linhasDestaque{
+    margin-top: -195px;
+    width: 100%;
+
+}
+.gradeMidias .midiaGrande1 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+  
+
+}
+.gradeMidias .midiaGrande1 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+
+.gradeMidias .midiaGrande1 .parteTexto .Destaque {
+    position: static;
+    width: 83px;
+    height: 21px;
+    left: 11px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    margin-left: 250px;
+    margin-top: -23px;
+    background-color: #FF8B00;
+
+}
+.gradeMidias .midiaGrande1 .parteTexto .QualquerTxt {
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 26px;
+    left: 8px;
+    top: 177px;
+    border-radius: nullpx;
+    width: 100%;
+}
+
+
+.gradeMidias .midiaGrande2 {
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.gradeMidias .midiaGrande2 .parteImg {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/leao.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+    background-repeat: no-repeat;
+}
+.gradeMidias .midiaGrande2 .parteTexto .linhasDestaque{
+    margin-top: -195px;
+    width: 100%;
+
+}
+.gradeMidias .midiaGrande2 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+  
+
+}
+.gradeMidias .midiaGrande2 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+
+.gradeMidias .midiaGrande2 .parteTexto .Destaque {
+    position: static;
+    width: 83px;
+    height: 21px;
+    left: 11px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    margin-left: 250px;
+    margin-top: -23px;
+    background-color: #FF8B00;
+
+}
+.gradeMidias .midiaGrande2 .parteTexto .QualquerTxt {
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 26px;
+    left: 8px;
+    top: 177px;
+    border-radius: nullpx;
+    width: 100%;
+}
+
+.gradeMidias .midiaMenor1 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/onca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeMidias .midiaMenor1 .parteTexto .linhasDestaque{
+    margin-top: -55px;
+    width: 100%;
+
+}
+.gradeMidias .midiaMenor1 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+
+}
+.gradeMidias .midiaMenor1 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeMidias .midiaMenor1 .parteTexto .QualquerTxt {
+    width: 100%;
+}
+
+
+.gradeMidias .midiaMenor2 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/onca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeMidias .midiaMenor2 .parteTexto .linhasDestaque{
+    margin-top: -55px;
+    width: 100%;
+
+}
+.gradeMidias .midiaMenor2 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+
+}
+.gradeMidias .midiaMenor2 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeMidias .midiaMenor2 .parteTexto .QualquerTxt {
+    width: 100%;
+}
+
+
+.gradeMidias .midiaMenor3 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/onca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeMidias .midiaMenor3 .parteTexto .linhasDestaque{
+    margin-top: -55px;
+    width: 100%;
+
+}
+.gradeMidias .midiaMenor3 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+
+}
+.gradeMidias .midiaMenor3 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeMidias .midiaMenor3 .parteTexto .QualquerTxt {
+    width: 100%;
+}
+
+.gradeMidias .midiaMenor4 .parteImg {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/onca.jpg);
+    background-size: 100%;
+    border-radius: 2px 2px 0px 0px;
+}
+.gradeMidias .midiaMenor4 .parteTexto .linhasDestaque{
+    margin-top: -55px;
+    width: 100%;
+
+}
+.gradeMidias .midiaMenor4 .parteTexto .linhasDestaque .Prefeitura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 9px;   
+    background: #1BA2E8;
+    border-radius: 2px;
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 9px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+
+}
+.gradeMidias .midiaMenor4 .parteTexto .linhasDestaque .Infraestrutura {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1px 10px;
+    background: #1C77B4;
+    border-radius: 2px;
+    position: static;
+    width: 86px;
+    height: 21px;
+    left: 10px;
+    top: 1px;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    margin-left: 110px;
+    margin-top: -23px;
+}
+.gradeMidias .midiaMenor4 .parteTexto .QualquerTxt {
+    width: 100%;
+}
+
+
+.rodape {
+    width: 100%;
+    height: 348px;
+    left: 0px;
+    top: 1968px;
+    background: #3C4147;
+}
+.rodape .boxRodape1 {
+    height: 102px;
+    width: 200px;
+    left: 135px;
+    top: 10%;
+    border-radius: 4px;
+    left: 40%;
+    right: 76%;
+    top: 10%;
+    bottom: 63.22%;
+    background: #50555A;
+    border-radius: 4px;
+    margin-left: 6%;
+    margin-top: 2%;
+    
+}
+.rodape .boxRodape12 {
+    height: 70px;
+    width: 70px;
+    margin-left: 80.2%;
+    margin-top: -100px;
+    top: 42px;
+    border-radius: 4px;
+    left: 85.76%;
+    right: 9.38%;
+    top: 14.1%;
+    bottom: 67.82%;
+    background: #50555A;
+    border-radius: 4px;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+
+}
+.rodape .boxRodapeFaixa {
+    height: 1px;
+    width: 2050px;
+    left: 135px;
+    top: 160px;
+    border-radius: 0px;
+    left: 6%;
+    right: 9.38%;
+    top: 45.98%;
+    bottom: 53.74%;
+    background: #FFFFFF;
+    opacity: 0.3;
+    margin-top: 80px;
+
+}
+.rodape .boxRodapeCertificado {
+    left: 6%;
+    right: 75.97%;
+    top: 55.46%;
+    bottom: 38.51%;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #D8D8D8;
+    margin-left: 6%;
+}
+
+.rodape .boxRodapeApp {
+    left: 35.14%;
+    right: 58.4%;
+    top: 55.46%;
+    bottom: 38.51%;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #D8D8D8;
+    margin-left: 25%;
+    margin-top: -20px;
+}
+
+.rodape .imgCertificados .ImgMcAfee {
+    left: 9.38%;    
+    right: 84.92%;
+    top: 64.08%;
+    bottom: 24.43%;
+    background-image: url(img/imgMcAfee.png);
+    background-size: 100%;
+    filter: drop-shadow(0px 0px 2.78538px rgba(0, 0, 0, 0.15));
+    border-radius: 2.23533px;
+    height: 40px;
+    width: 82.22222137451172px;
+    left: 135px;
+    top: 223px;
+    border-radius: 2.2353293895721436px;
+    margin-left: 6%;
+}
+
+.rodape .imgCertificados .ImgSGS {
+    left: 15.64%;
+    right: 78.65%;
+    top: 64.08%;
+    bottom: 24.43%;
+    background-image: url(img/imgSGS.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 2.78538px rgba(0, 0, 0, 0.15));
+    border-radius: 2.23533px;
+    height: 40px;
+    width: 110px;
+    left: 225.22216796875px;
+    top: 223px;
+    border-radius: 2.2353293895721436px;
+    margin-left: 10%;
+    margin-top: -40px;
+}
+
+.rodape .imgCertificados .TrustedSite {
+    height: 40px;
+    width: 82.22222137451172px;
+    left: 315.4444580078125px;
+    top: 223px;
+    border-radius: 2.2353293895721436px;
+    left: 21.91%;
+    right: 72.38%;
+    top: 64.08%;
+    bottom: 24.43%;
+    background-image: url(img/imgTrusted.png);
+    background-size: 100%;
+    border-radius: 2.23533px;
+    margin-left: 15%;
+    margin-top: -40px;
+}
+
+.rodape .imgApp .ImgAppStore {
+    left: 35.14%;
+    right: 55.24%;
+    top: 64.08%;
+    bottom: 24.43%;
+    background-image: url(img/imgAppStore.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 150px;
+    margin-left: 25%;
+    margin-top: -40px;
+}
+
+.rodape .imgApp .ImgPlayStore {
+    left: 35.14%;
+    right: 55.24%;
+    top: 64.08%;
+    bottom: 24.43%;
+    background-image: url(img/imgGooglePlay.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 150px;
+    margin-left: 31.5%;
+    margin-top: -60px;
+}
+
+.rodape .imgIPM {
+    left: 35.14%;
+    right: 55.24%;
+    top: 64.08%;
+    bottom: 24.43%;
+    background-image: url(img/imgIPM.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 150px;
+    margin-left: 77%;
+    margin-top: -90px;
+}
+
+.rodape .Politica {
+    left: 9.38%;
+    right: 73.19%;
+    top: 84.77%;
+    bottom: 9.2%;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #D8D8D8;
+    margin-left: 6%;
+    margin-top: 80px;
+}
+
+.rodape .IPMLTDA {
+    left: 67.43%;
+    right: 9.38%;
+    top: 84.77%;
+    bottom: 9.2%;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-left: 70.2%;
+    margin-top: -15px;
+}
